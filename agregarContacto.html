@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            Agenda  Web
+        </title>
+        <link href="style/styles.css" rel="stylesheet"/>
+        <link href="style/fontello.css" rel="stylesheet">
+        <link href="style/formulari.css" rel="stylesheet">
+        <script src="js/AgendaJavaScrip.js"></script>
+    </head>
+    <body>
+        <!--aqui tenemos la cabezera del proyecto con el menus integrado-->
+        <header class="header_contacto">
+                <div class="contenedor">
+                        <h1 class="icon-agenda">Agenda Web</h1>
+                        <input type="checkbox" id="menu-bar">
+                        <label for="menu-bar" class="icon-menu"></label>
+                        <nav class="menu">
+                                <a href="index.html">Home</a>
+                                <a href="agregarContacto.html">Agregar Contacto</a>
+                                <a href="verContacto.html">Ver Contacto</a>
+                                <a href="AboutUs.html">About Us</a>
+                        </nav>
+                </div>
+        </header>
+        <div class="contenedor_bt">
+            <!--aqui tenemos el formulario con su refentes name para utilizar lo en js-->
+           <div class="form_top">
+               <h2>Formulario <span>Agregar Contacto</span></h2>
+           </div>
+           <form method="POST"  class="form_reg">
+               <input class="input" type="text" placeholder="	&#128100;Nombre" required autofocus name="nombre">
+               <input class="input" type="text" placeholder="	&#128100;Apellido" required autofocus name="apellido">
+               <input class="input" type="text" placeholder="	&#128241;Telefono" required autofocus name="telefono">
+               <div class="bt_form">
+                   <input class="bt_submit" type="submit" value="Guardar Contacto" onclick="setData()" >
+               </div>
+           </form>
+        </div>
+        <!--aqui tenemos el pie de pagina para las redes sociales y eso-->
+        <footer>
+                <div class="contenedor">
+                    <p class="copy">Mi agenda &copy; 2019</p>>
+                     <div class="sociales"> 
+                       <a class="icon-facebook-squared" href="/"></a>
+                       <a class="icon-instagram-1" href="/"></a>
+                     </div>
+                    </p>
+                </div>
+            </footer>
+    </body>
+</html>

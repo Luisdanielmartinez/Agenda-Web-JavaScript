@@ -1,0 +1,27 @@
+
+
+#imagen{
+    width:100px;
+    height:100px;
+    justify-content: center;
+    margin: 100px;
+    display: flex;
+  }
+.show{
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+.showagende{
+   font-size: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+#info{
+  margin: -100px;
+  justify-content: center;
+  text-align: center;
+  
+}
